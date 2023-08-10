@@ -2,9 +2,9 @@
 
 /*
 Plugin Name: Brave Kit
-Description: Installs the bravefactor-theme and required plugins.
+Description: Installs the bravefactor-theme and required plugins, and provides database restoration tools.
 Version: 1.0
-Author: Brave
+Author: Brave Factor
 */
 
 require_once plugin_dir_path(__FILE__) . 'installers.php';

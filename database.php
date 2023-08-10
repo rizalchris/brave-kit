@@ -9,7 +9,6 @@ class DatabaseInstaller {
         global $wpdb;
         $this->wpdb = $wpdb;
         $this->sql_file_path = plugin_dir_path(__FILE__) . 'database/bravefactor.sql';
-        $this->backup_file_path = plugin_dir_path(__FILE__) . 'database/backup.sql';  // Assuming you've created a backup
     }
 
     public function restore_database() {
